@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1022325067882",
+    "project_id": "fasture-thaipost",
+    "storage_bucket": "fasture-thaipost.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022325067882:android:a35cfcba7b4a2d6fa5ba13",
+        "android_client_info": {
+          "package_name": "com.fasture.postman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022325067882-912pij82j1an2587kvg8vsv0oqlbbith.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbWhPvFGYDHvuisbFAWvmY-qatMjcw-Ws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022325067882-912pij82j1an2587kvg8vsv0oqlbbith.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

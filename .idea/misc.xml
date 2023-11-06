@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Meep/Desktop/File/Coding/My Project/fasture-postman/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Meep/Desktop/File/Coding/My Project/fasture-postman/app/src/main/res/layout/fragment_bulkread.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/Meep/Desktop/File/Coding/My Project/fasture-postman/app/src/main/res/layout/fragment_coderead.xml" value="0.15505464480874318" />
+        <entry key="..\:/Users/Meep/Desktop/File/Coding/My Project/fasture-postman/app/src/main/res/layout/fragment_fullread.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/Meep/Desktop/File/Coding/My Project/fasture-postman/app/src/main/res/layout/fragment_home.xml" value="0.129981884057971" />
+        <entry key="..\:/Users/Meep/Desktop/File/Coding/My Project/fasture-postman/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/Users/Meep/Desktop/File/Coding/My Project/fasture-postman/app/src/main/res/layout/fragment_notifications.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/layout/fragment_home.xml" value="0.25886524822695034" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/layout/fragment_login.xml" value="0.25886524822695034" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
