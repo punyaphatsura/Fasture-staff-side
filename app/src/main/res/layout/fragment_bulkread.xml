@@ -1,6 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        style="@style/RedButton"
+        android:background="@drawable/rounded_corner_enable"
+        android:text="Start Read"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.050000012">
+
+
+        <TableRow
+            style="@style/HeaderRow"
+            android:gravity="center_horizontal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                style="@style/HeaderNum"
+                android:layout_width="40dp"
+                android:text="No. "
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                style="@style/HeaderText"
+                android:layout_width="200dp"
+                android:text="ID"
+                tools:layout_editor_absoluteX="66dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                style="@style/HeaderCode"
+                android:layout_width="120dp"
+                android:text="Postcode"
+                tools:layout_editor_absoluteX="266dp"
+                tools:layout_editor_absoluteY="0dp" />
+        </TableRow>
+    </TableLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/show"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TableLayout
+                android:id="@+id/showTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <TableRow
+                    style="@style/BodyRow"
+                    android:layout_height="0dp"
+                    android:gravity="center_horizontal"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="617dp">
+
+                    <TextView
+                        style="@style/Num"
+                        android:layout_width="50dp"
+                        android:layout_height="0dp"
+                        android:text=""
+                        tools:layout_editor_absoluteX="26dp"
+                        tools:layout_editor_absoluteY="617dp" />
+
+                    <TextView
+                        style="@style/ID"
+                        android:layout_width="200dp"
+                        android:layout_height="0dp"
+                        android:text=""
+                        tools:layout_editor_absoluteX="66dp"
+                        tools:layout_editor_absoluteY="617dp" />
+
+                    <TextView
+                        style="@style/PostCode"
+                        android:layout_width="129dp"
+                        android:layout_height="0dp"
+                        android:text=""
+                        tools:layout_editor_absoluteX="266dp"
+                        tools:layout_editor_absoluteY="617dp" />
+                </TableRow>
+            </TableLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/submitBtn"
+        style="@style/RedButton"
+        android:background="@drawable/rounded_corner_enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        style="@style/RedButton"
+        android:background="@drawable/rounded_corner_enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clear"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.631" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

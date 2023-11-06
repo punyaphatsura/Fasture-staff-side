@@ -3,15 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Meep/Desktop/File/Coding/My Project/fasture-postman/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Meep/Desktop/File/Coding/My Project/fasture-postman/app/src/main/res/layout/fragment_bulkread.xml" value="0.2056159420289855" />
-        <entry key="..\:/Users/Meep/Desktop/File/Coding/My Project/fasture-postman/app/src/main/res/layout/fragment_coderead.xml" value="0.15505464480874318" />
-        <entry key="..\:/Users/Meep/Desktop/File/Coding/My Project/fasture-postman/app/src/main/res/layout/fragment_fullread.xml" value="0.2056159420289855" />
-        <entry key="..\:/Users/Meep/Desktop/File/Coding/My Project/fasture-postman/app/src/main/res/layout/fragment_home.xml" value="0.129981884057971" />
-        <entry key="..\:/Users/Meep/Desktop/File/Coding/My Project/fasture-postman/app/src/main/res/layout/fragment_login.xml" value="0.264" />
-        <entry key="..\:/Users/Meep/Desktop/File/Coding/My Project/fasture-postman/app/src/main/res/layout/fragment_notifications.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.3165" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1045" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/drawable/ic_launcher_background.xml" value="0.4725" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.4725" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/layout/activity_login.xml" value="0.26721014492753625" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/layout/activity_main.xml" value="0.4844890510948905" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/layout/fragment_coderead.xml" value="0.26721014492753625" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
         <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/layout/fragment_home.xml" value="0.25886524822695034" />
         <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/layout/fragment_login.xml" value="0.25886524822695034" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/layout/fragment_notifications.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/layout/fragment_readnregister.xml" value="0.33" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/menu/appbar.xml" value="0.25882352941176473" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3325" />
+        <entry key="..\:/Users/ironp/AndroidStudioProjects/Postman/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3325" />
       </map>
     </option>
   </component>
